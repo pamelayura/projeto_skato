@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, section h2, section h3, form button, .products-list button {
+    font-family: 'Lexend Tera', sans-serif;
+}
+
+body, input, textarea {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #3a1669;
+    color:#ffffff;
+}
+
+header h1 {
+    font-size: 48px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.facade {
+    height: 600px;
+}
+
+.brands-list img {
+    height: 100px;
+    margin-right: 16px;
+}
+
+.brands-list li {
+    display: inline;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+    color: #3a1669;
+}
+
+section h2 {
+    margin-bottom: 24px;
+    font-size: 18px;
+}
+
+section p {
+    margin-bottom: 16px;
+}
+
+.facade {
+    margin-right: 32px;
+}
+
+.products-list img {
+    height: 400px;
+    margin-right: 16px;
+}
+
+#products .container {
+    display: block;
+}
+
+.products-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.products-list button:hover {
+    background-color: #7e58b3;
+}
+
+#contact .container {
+    display: block;
+}
+
+form input,
+form textarea,
+form button,
+.products-list button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button,
+.social-links img {
+    margin-bottom: 36px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
+form button,
+.products-list button {
+    background-color: #3a1669;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #7e58b3;
+}
+
+input:focus, textarea:focus{
+    outline-color: #3a1669;
+}
+
+.social-links img {
+    height: 36px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #3a1669;
+    color: #ffffff;
+    padding: 16px 0;
+}
